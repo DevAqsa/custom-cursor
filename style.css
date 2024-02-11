@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    color: #fff;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #f5f4f4;
+    border-radius: 10px;
+    position: absolute;
+    transition: all linear 0.2s;
+    mix-blend-mode: difference;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(48, 20, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+h1{
+    font-size: 7vw;
+    font-weight: 900;
+}
+
+
+
+
+
